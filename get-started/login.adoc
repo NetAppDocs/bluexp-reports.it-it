@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: get-started/login.html 
+keywords: bluexp login, reports service log in 
+summary: Inizia a utilizzare i report di migrazione BlueXP accedendo al servizio in BlueXP. 
+---
+= Accedi ai report di migrazione BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/get-started/
+
+
+[role="lead"]
+BlueXP è accessibile dal browser Web attraverso l'interfaccia utente basata su BlueXP SaaS.
+
+Per accedere a BlueXP, puoi utilizzare le credenziali del sito di supporto NetApp oppure iscriverti per un login cloud NetApp utilizzando la tua email e una password. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Scopri di più sull'accesso"^].
+
+.Fasi
+. Aprire un browser Web e accedere a. https://console.bluexp.netapp.com/["Console BlueXP"^].
++
+Viene visualizzata la pagina di accesso a NetApp BlueXP.
+
+. Accedere a BlueXP.
+. Effettuare una delle seguenti operazioni:
++
+** Dalla barra di navigazione a sinistra di BlueXP, selezionare *Storage* > *Migration reports* (Storage* > rapporti migrazione).
+** Da BlueXP Canvas, selezionare l'ambiente di lavoro. Nel pannello di destra, selezionare *Report* > *Visualizza report cluster*.
++
+Se non sono stati generati report, viene visualizzata una landing page. Se sono stati generati report, viene visualizzato l'elenco dei report. Se si seleziona un cluster specifico nel riquadro destro di BlueXP Canvas, i report vengono filtrati solo per quel cluster.
+
+
+
++
+image:reports-landing.png["Questa immagine mostra la landing page del servizio"]
+
+

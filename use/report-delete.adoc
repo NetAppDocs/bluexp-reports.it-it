@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: use/report-delete.html 
+keywords: BlueXP migration reports, volume reports 
+summary: È possibile eliminare un report se contiene un errore corretto o se non è più necessario. 
+---
+= Eliminare un report
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+È possibile eliminare un report se contiene un errore corretto o se non è più necessario. È possibile eliminare una o più istanze di un report.
+
+.Fasi
+. Dal navigatore di sinistra BlueXP, selezionare *Storage* > *Migration Reports* (Storage* > rapporti migrazione).
+. Dalla dashboard dei report, selezionare un report.
+. Nella riga del report, selezionare *Actions* … E selezionare *Delete Report* (Elimina report).
+. Se esistono più istanze del report, selezionare quelle che si desidera eliminare e selezionare *Elimina*.
++
+image:report-delete-multiple.png["Questa immagine mostra la pagina Delete (Elimina) che consente di eliminare più report"]
+
+. Selezionare *Delete* per confermare l'eliminazione.
+

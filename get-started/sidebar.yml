@@ -1,0 +1,16 @@
+---
+section: get-started
+title: Inizia subito
+entries:
+- title: Scopri i report sulla migrazione di BlueXP
+  url: "/get-started/intro.html"
+- title: Prerequisiti
+  url: "/get-started/prerequisites.html"
+- title: Avvio rapido
+  url: "/get-started/quick-start.html"
+- title: Impostare i report di migrazione BlueXP
+  url: "/get-started/setup.html"
+- title: Accedi ai report di migrazione BlueXP
+  url: "/get-started/login.html"
+- title: FAQ
+  url: "/get-started/faq.html"

@@ -1,0 +1,14 @@
+---
+section: use
+title: Utilizza i report di migrazione BlueXP
+entries:
+- title: Operazioni che è possibile eseguire con i report di migrazione BlueXP
+  url: "/use/report-overview.html"
+- title: Creare un report
+  url: "/use/report-create.html"
+- title: Visualizzare un report dei volumi di esempio
+  url: "/use/report-sample.html"
+- title: Attivare le notifiche dei report
+  url: "/use/report-notifications.html"
+- title: Eliminare un report
+  url: "/use/report-delete.html"

@@ -1,0 +1,66 @@
+---
+sidebar: sidebar 
+permalink: use/report-sample.html 
+keywords: BlueXP migration reports, volume reports 
+summary: Guarda un report di esempio e scopri cosa mostrano i dati. 
+---
+= Visualizza un report di esempio - il report dei volumi
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+Guarda un report di esempio sui volumi e scopri cosa mostrano i dati.
+
+.Fasi
+. Dal navigatore di sinistra BlueXP, selezionare *Storage* > *Migration Reports* (Storage* > rapporti migrazione).
+. Per visualizzare il report, selezionare *Actions* ... A destra e selezionare *Visualizza report*.
++
+image:sample-volumes-top.png["Questa immagine mostra la parte superiore di un report dei volumi di esempio"]
+
++
+image:sample-volumes-middle.png["Questa immagine mostra la parte centrale di un report dei volumi di esempio"]
+
++
+image:sample-volumes-middle-b.png["Questa immagine mostra la sezione successiva al centro di un report dei volumi di esempio"]
+
+. Per conoscere il significato delle colonne, passare il mouse su alcune informazioni.
+. Per visualizzare il report in formato CSV, selezionare *Actions* ... A destra e selezionare *Visualizza PDF*.
+. Visualizzare le informazioni del report:
++
+** *Maximum* > *Total Depth*: Il numero massimo di sottodirectory nidificate all'interno di una directory del volume. Nell'esempio, directory/sottodirectory/sottodirectory 2, la profondità è 2.
+** *Maximum* > *Total Maximum Width* (larghezza massima totale): Il maggior numero di elementi nelle directory del volume. Un elemento è un file, una sottodirectory, un link simbolico o un hard link.
+** *Massimo* > *percorso più lungo*: Il percorso della sottodirectory più lungo e il nome del file nel volume.
+** *Massimo* > *Directory*: Il numero di directory nella directory più grande.
+** *Massimo* > *file*: Il numero di file nella directory più grande. Potrebbe esserci un'altra directory con più file, ma non è la directory più grande dell'albero.
+** *Tempo di accesso*: L'ultimo accesso ai file.
+** *Modifica ora*: L'ultima volta in cui è stato effettuato l'accesso ai metadati del file, ad esempio le autorizzazioni.
+** *Modify Time* (ora modifica): L'ultima volta che il contenuto dei file è stato modificato.
+** *Primi 5 motivi di errore*: I primi 5 motivi di errore rilevati durante la scansione del volume. Ad esempio, un report potrebbe contenere errori relativi a permessi di accesso inesistenti o non corretti o a file mancanti. Questo tipo di errore può influire sulla scansione dell'intero set di file e directory. Dopo aver visualizzato l'elenco degli errori, è possibile risolvere i problemi ed eseguire nuovamente il report.
+** *Top 5 Directory e file*: Le directory con il numero massimo di 5 directory o le dimensioni dei file nel volume.
+
+
+. Per tornare alla dashboard dei report, selezionare *Report* nella barra di navigazione.
+
+
+
+
+=== Visualizzare le informazioni di distribuzione dei report
+
+Potrebbe essere necessario sapere come i dati sono cambiati da una data di report a un'altra. È possibile eseguire questa operazione utilizzando i diagrammi di distribuzione dei report.
+
+Le informazioni di distribuzione dei report sono disponibili solo per i report completati e solo se sono presenti almeno due report completati.
+
+.Fasi
+. Dal navigatore di sinistra BlueXP, selezionare *Storage* > *Migration Reports* (Storage* > rapporti migrazione).
+. Selezionare un report.
+. Dal menu azioni a destra, selezionare *Visualizza distribuzione report*.
+. Visualizza la distribuzione dei report:
++
+** *Distribuzione nel tempo (dimensione totale)*: Le dimensioni del volume in date diverse.
+** *Distribuzione nel tempo (elementi totali)*: Il numero di file, cartelle, collegamenti e directory in date diverse.
+
+
+
