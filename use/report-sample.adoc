@@ -16,9 +16,8 @@ Guarda un report di esempio sui volumi e scopri cosa mostrano i dati.
 
 .Fasi
 . Dal navigatore di sinistra BlueXP, selezionare *Storage* > *Migration Reports* (Storage* > rapporti migrazione).
-. Per visualizzare il report, selezionare *Actions* ... A destra e selezionare *Visualizza report*.
 +
-image:sample-volumes-top.png["Questa immagine mostra la parte superiore di un report dei volumi di esempio"]
+image:report-sample-volumes-top-total-items.png["Questa immagine mostra la parte superiore di un rapporto volumi campione e la scheda elementi totali"]
 
 +
 image:sample-volumes-middle.png["Questa immagine mostra la parte centrale di un report dei volumi di esempio"]
@@ -27,7 +26,17 @@ image:sample-volumes-middle.png["Questa immagine mostra la parte centrale di un 
 image:sample-volumes-middle-b.png["Questa immagine mostra la sezione successiva al centro di un report dei volumi di esempio"]
 
 . Per conoscere il significato delle colonne, passare il mouse su alcune informazioni.
-. Per visualizzare il report in formato CSV, selezionare *Actions* ... A destra e selezionare *Visualizza PDF*.
+. Scegliere una delle seguenti opzioni:
++
+** Per visualizzare e scaricare un file PDF del report, selezionare *azioni* ... E selezionare *Scarica rapporto*.
+** Per generare un'altra istanza dello stesso report, selezionare la riga del report e, a destra, selezionare *Aggiungi report*.
+** Per visualizzare le informazioni su tutti gli elementi, scegliere la scheda *totale elementi*.
+** Per visualizzare solo le informazioni sulla capacità allocata, selezionare la scheda *capacità allocata*.
++
+image:report-sample-volumes-top-capacity.png["Questa immagine mostra la parte superiore di un report dei volumi di esempio e la scheda capacità allocata"]
+
+
+
 . Visualizzare le informazioni del report:
 +
 ** *Maximum* > *Total Depth*: Il numero massimo di sottodirectory nidificate all'interno di una directory del volume. Nell'esempio, directory/sottodirectory/sottodirectory 2, la profondità è 2.
@@ -52,6 +61,8 @@ image:sample-volumes-middle-b.png["Questa immagine mostra la sezione successiva 
 Potrebbe essere necessario sapere come i dati sono cambiati da una data di report a un'altra. È possibile eseguire questa operazione utilizzando i diagrammi di distribuzione dei report.
 
 Le informazioni di distribuzione dei report sono disponibili solo per i report completati e solo se sono presenti almeno due report completati.
+
+image:report-sample-volumes-distribution.png["Questa immagine mostra la parte superiore di un report di distribuzione dei volumi di esempio"]
 
 .Fasi
 . Dal navigatore di sinistra BlueXP, selezionare *Storage* > *Migration Reports* (Storage* > rapporti migrazione).

@@ -16,6 +16,12 @@ Scopri le novità dei report sulla migrazione di BlueXP.
 
 
 
+== 03 settembre 2023
+
+Il servizio di report di migrazione BlueXP aggiornato fornisce aggiornamenti ai dati dei report. I report ora includono la capacità allocata.
+
+
+
 == 02 giugno 2023
 
 Con il nuovo servizio di report sulla migrazione di BlueXP, puoi identificare rapidamente il numero di file, directory, collegamenti simbolici, hard link, profondità e ampiezza degli alberi dei file system, file di grandi dimensioni e altro ancora nel tuo ambiente di storage.

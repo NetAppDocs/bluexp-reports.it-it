@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/report-create.html 
 keywords: BlueXP migration reports, volume reports 
-summary: Con il servizio BlueXP Migration Reports, puoi identificare rapidamente il numero di file, directory, collegamenti simbolici, hard link, la profondità e la larghezza degli alberi dei file system, i file più grandi e molto altro nel tuo ambiente di storage. 
+summary: Con il servizio di report di migrazione di BlueXP, puoi creare un report sui volumi che mostri il numero di file, i file nelle directory, i collegamenti simbolici, i link rigidi, le dimensioni dei file più grandi, capacità allocata e altro ancora. 
 ---
 = Creare un report
 :hardbreaks:
@@ -12,7 +12,7 @@ summary: Con il servizio BlueXP Migration Reports, puoi identificare rapidamente
 
 
 [role="lead"]
-È possibile creare un report sui volumi che mostri il numero di file, i file nelle directory, i collegamenti simbolici, i collegamenti hardware, le dimensioni dei file più grandi, e molto altro ancora.
+È possibile creare un report di Volumes che mostri il numero di file, i file nelle directory, i collegamenti simbolici, i collegamenti hardware, le dimensioni massime dei file, capacità allocata e altro ancora.
 
 Ogni volta che si crea un report, il servizio di report di migrazione BlueXP esegue la scansione del percorso e compila i dati. Utilizzando la stessa definizione di report, è possibile avere più istanze di quel report.
 
@@ -47,6 +47,23 @@ Se si desidera attivare un ambiente, fare riferimento a. https://docs.netapp.com
 Il servizio BlueXP Migration Reports genera il report e lo elenca nell'elenco dei report.
 
 . Per visualizzare il report, selezionare *Actions* ... A destra e selezionare *Visualizza report*.
-. Per scaricare un file PDF del report, selezionare *Actions* ... E selezionare *Scarica report*.
-. Per generare un'altra istanza dello stesso report, selezionare la riga del report e, a destra, selezionare *Aggiungi report*.
++
+image:report-sample-volumes-top-total-items.png["Questa immagine mostra la parte superiore di un rapporto volumi campione e la scheda elementi totali"]
+
+. Scegliere una delle seguenti opzioni:
++
+** Per visualizzare e scaricare un file PDF del report, selezionare *azioni* ... E selezionare *Scarica rapporto*.
+** Per generare un'altra istanza dello stesso report, selezionare la riga del report e, a destra, selezionare *Aggiungi report*.
+** Per visualizzare le informazioni su tutti gli elementi, scegliere la scheda *totale elementi*.
+** Per visualizzare solo le informazioni sulla capacità allocata, selezionare la scheda *capacità allocata*.
+** Per visualizzare il rapporto distribuzione, dal menu azioni sulla destra, selezionare *Visualizza distribuzione rapporti*.
++
+
+TIP: Le informazioni di distribuzione dei report sono disponibili solo per i report completati e solo se sono presenti almeno due report completati.
+
+
+
++
+image:report-sample-volumes-distribution.png["Questa immagine mostra la parte superiore di un report di distribuzione dei volumi di esempio"]
+
 
