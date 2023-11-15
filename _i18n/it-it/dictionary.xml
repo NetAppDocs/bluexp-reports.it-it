@@ -96,7 +96,6 @@
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="doc">Limitazioni</block>
   <block id="fa62285d299fafbecd9c02da5fa530c6" category="summary">Con il nuovo servizio di report sulla migrazione di BlueXP, puoi identificare rapidamente il numero di file, directory, collegamenti simbolici, hard link, profondità e ampiezza degli alberi dei file system, file di grandi dimensioni e altro ancora nel tuo ambiente di storage.</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">Novità</block>
-  <block id="0a315dc6821559d103066780c255612b" category="paragraph">Scopri le novità dei report sulla migrazione di BlueXP.</block>
   <block id="2962158ebf7a34c626b48db40bc051ec" category="section-title">02 giugno 2023</block>
   <block id="d792454ca1593678a5c636322be98be7" category="paragraph">Grazie a queste informazioni, saprai in anticipo che il processo che desideri utilizzare può gestire l'inventario in modo efficiente e efficace.</block>
   <block id="167aa714a6db028bb8fc39b77f1185ef" category="inline-link-macro">Scopri di più sui report di migrazione BlueXP</block>
@@ -371,4 +370,7 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Ottieni supporto per un file service del cloud provider</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Per supporto tecnico relativo a un file service di un cloud provider, alla sua infrastruttura o a una soluzione che utilizza il servizio, fare riferimento a "Guida in linea" nella documentazione BlueXP relativa a quel prodotto.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Per ricevere supporto tecnico specifico di BlueXP e delle relative soluzioni e servizi storage, utilizza le opzioni di supporto descritte di seguito.</block>
+  <block id="3f3fab9b522f231cf00b909c6155b3d4" category="summary">Scopri le novità nei report di migrazione di BlueXP.</block>
+  <block id="35214f9b3df21ed35db22cb765a9b147" category="section-title">13 novembre 2023</block>
+  <block id="c14af667110ffb482c0adaaed623dbe2" category="paragraph">Ora puoi creare report per i volumi che utilizzano il protocollo SMB/CIFS.</block>
 </blocks>
